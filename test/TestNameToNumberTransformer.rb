@@ -7,6 +7,9 @@ class TestNameToNumberTransformer < Test::Unit::TestCase
     assert_equal(0, NameToNumberTransformer.new("A").transform())
     assert_equal(1, NameToNumberTransformer.new("B").transform())
     assert_equal(2, NameToNumberTransformer.new("C").transform())
+    assert_equal(3, NameToNumberTransformer.new("D").transform())
+    assert_equal(4, NameToNumberTransformer.new("E").transform())
+    assert_equal(0, NameToNumberTransformer.new("F").transform())
   end
 
 
